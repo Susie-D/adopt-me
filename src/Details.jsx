@@ -42,7 +42,7 @@ const Details = () => {
                         <div className="buttons">
                             <button onClick={() => {
                                 setAdoptedPet(pet);
-                                navigate("/")
+                                navigate("/adopt-me")
                             }}>
                                 Yes
                             </button>
